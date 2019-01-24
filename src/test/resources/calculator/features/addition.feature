@@ -2,8 +2,7 @@
 Feature: Addition functionality in the calculator
 
   Scenario Outline: Adding positive numbers
-    Given I have two numbers "<number_one>" and "<number_two>"
-    When I add the numbers together
+    When I add two numbers "<number_one>" and "<number_two>"
     Then I am returned the correct "<result>"
 
     Examples:
