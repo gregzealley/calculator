@@ -1,7 +1,7 @@
 @Calculator
 Feature: Addition functionality in the calculator
 
-  Scenario Outline: Adding positive numbers
+  Scenario Outline: Adding two positive numbers
     When I add two numbers "<number_one>" and "<number_two>"
     Then I am returned the correct "<result>"
 
