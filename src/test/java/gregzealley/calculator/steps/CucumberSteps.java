@@ -1,6 +1,6 @@
-package calculator.steps;
+package gregzealley.calculator.steps;
 
-import calculator.Calculator;
+import gregzealley.calculator.Calculator;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 

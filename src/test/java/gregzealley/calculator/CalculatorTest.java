@@ -1,4 +1,4 @@
-package calculator;
+package gregzealley.calculator;
 
 import org.junit.Before;
 import org.junit.Test;
