@@ -1,8 +1,8 @@
 @Calculator
-Feature: Deletion functionality in the calculator
+Feature: Subtraction functionality in the calculator
 
-  Scenario Outline: Deleting two numbers
-    When I delete two numbers "<number_one>" and "<number_two>"
+  Scenario Outline: Subtracting two numbers
+    When I subtract two numbers "<number_one>" and "<number_two>"
     Then I am returned the correct "<result>"
 
     Examples:

@@ -20,14 +20,14 @@ public class CucumberSteps {
         result = calculator.add(firstNumber, secondNumber);
     }
 
-    @When("I delete two numbers {string} and {string}")
-    public void iDeleteTwoNumbersAnd(final String firstNumberParam, String secondNumberParam) {
+    @When("I subtract two numbers {string} and {string}")
+    public void iSubtractTwoNumbersAnd(final String firstNumberParam, String secondNumberParam) {
         //need to convert to int - unable to pass int from Cucumber Expressions
         int firstNumber = Integer.parseInt(firstNumberParam);
         int secondNumber = Integer.parseInt(secondNumberParam);
 
         Calculator calculator = new Calculator();
-        result = calculator.delete(firstNumber, secondNumber);
+        result = calculator.subtract(firstNumber, secondNumber);
     }
 
     @Then("I am returned the correct {string}")

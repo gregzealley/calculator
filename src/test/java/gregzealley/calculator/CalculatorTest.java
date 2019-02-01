@@ -30,23 +30,23 @@ public class CalculatorTest {
     }
 
     @Test
-    public void deleteTwoPositiveNumbersReturnsCorrectResult() {
-        assertEquals(5, calculator.delete(10, 5));
+    public void subtractTwoPositiveNumbersReturnsCorrectResult() {
+        assertEquals(5, calculator.subtract(10, 5));
     }
 
     @Test
-    public void deleteZeroFromNumberReturnsCorrectResult() {
-        assertEquals(10, calculator.delete(10, 0));
+    public void subtractZeroFromNumberReturnsCorrectResult() {
+        assertEquals(10, calculator.subtract(10, 0));
     }
 
     @Test
-    public void deleteValueFromZeroReturnsCorrectResult() {
-        assertEquals(-34, calculator.delete(0, 34));
+    public void subtractValueFromZeroReturnsCorrectResult() {
+        assertEquals(-34, calculator.subtract(0, 34));
     }
 
     @Test
-    public void deleteZeroFromZeroReturnsCorrectResult() {
-        assertEquals(0, calculator.delete(0, 0));
+    public void subtractZeroFromZeroReturnsCorrectResult() {
+        assertEquals(0, calculator.subtract(0, 0));
     }
 
 }
